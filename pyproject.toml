@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "timeseries-ad"
+version = "0.1.0"
+description = ""
+authors = ["Ian Thomas <thomasian06@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "timeseries_ad" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+polars = "^0.15.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
